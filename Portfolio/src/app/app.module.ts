@@ -3,11 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { EncabezadoComponent } from './encabezado/encabezado.component';
+import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EncabezadoComponent
+    EncabezadoComponent,
+    HomeComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule

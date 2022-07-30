@@ -1,0 +1,25 @@
+div {
+    height: 100vh;
+    background-image: radial-gradient(circle, black, rgb(75, 75, 75), rgba(214, 214, 214, 0.411));
+    overflow: auto;
+}
+img {
+    position: relative;
+    padding-top: 15vh;
+}
+.texto-informativo {
+    /* display: block;
+    padding: 12vh 0 12vh 30vh; */
+    position: relative;
+    top: 10vh;
+    left: 40vw;
+}
+h2 {
+    font-size: 1.3rem;
+    color: rgba(214, 153, 74, 0.699);
+}
+p {
+    text-shadow: 0.05rem 0.05rem rgba(255, 166, 0, 0.452);
+    font-size: 1.15rem;
+    padding-left: 2vw;
+}

@@ -3,14 +3,12 @@ div {
     display: flex;
 }
 li {
-    padding-right: 20px;
+    padding-right: 4%;
 }
 a {
     color: aliceblue;
     text-decoration: none;
-}
-li.me-auto {
-    padding-right: 0px;
+    font-size: 1.05rem;
 }
 ul {
     margin: auto auto auto 0px;
