@@ -5,13 +5,17 @@ import { AppComponent } from './app.component';
 import { EncabezadoComponent } from './encabezado/encabezado.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { WorksComponent } from './works/works.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EncabezadoComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    WorksComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule

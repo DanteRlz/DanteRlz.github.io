@@ -3,7 +3,12 @@ div {
     display: flex;
 }
 li {
-    padding-right: 4%;
+    padding-right: 2%;
+    padding-left: 2%;
+    transition-duration: 0.5s;
+}
+li:hover {
+    background-color: rgba(216, 204, 204, 0.514);
 }
 a {
     color: aliceblue;
@@ -12,4 +17,8 @@ a {
 }
 ul {
     margin: auto auto auto 0px;
+    list-style: none;
+}
+.nav-tabs {
+    border-bottom: none;
 }

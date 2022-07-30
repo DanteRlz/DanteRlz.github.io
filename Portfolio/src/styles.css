@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+div.fondo-componente {
+    height: 100vh;
+    background-image: radial-gradient(circle, black, rgb(75, 75, 75), rgba(214, 214, 214, 0.411));
+    overflow-y: auto;
+    overflow-x: hidden;
+}
